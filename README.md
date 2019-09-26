@@ -1,6 +1,6 @@
 # VSCodePortable
 
-A launcher for (Windows, 64-bit) Visual Studio Code in portable mode that checks for (and optionally installs) updates at startup. It installs Visual Studio Code in portable mode on the first run.  
+A launcher for (Windows, 64-bit) [Visual Studio Code](https://code.visualstudio.com/) in [portable mode](https://code.visualstudio.com/docs/editor/portable) that checks for (and optionally installs) updates at startup. It installs Visual Studio Code in portable mode on the first run.  
 
 Obviously, Visual Studio Code belongs to Microsoft. Hopefully, since I'm not distributing any of their files, this is legal and they don't ruin me. :sweat_smile:
 
@@ -57,3 +57,4 @@ Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.c
 * [ ] Introduce a way to update VSCodePortable itself
 * [ ] Maybe move the To-Do's out of the readme
 * [ ] Do ~~more~~ error checking
+* [ ] Maybe just convert to a PowerShell script to remove executable dependencies (may make it not work as well on random computers due to PowerShell permissions)
