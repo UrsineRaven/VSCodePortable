@@ -52,3 +52,4 @@ Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.c
     - Data could just stay in the Data folder
 * [ ] Introduce a way to update VSCodePortable itself
 * [ ] Maybe move the To-Do's out of the readme
+* [ ] Do ~~more~~ error checking
