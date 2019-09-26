@@ -17,9 +17,17 @@ It will:
 
 ## How it works
 
-The bat file launches an AutoHotkey script which parses a page from Visual Studio's website and extracts the latest version. It then compares that to the local version of Code. If you choose to update, it downloads the new version and updates your local copy. The bat file then launches the portable copy of Code.
+The bat file launches an AutoHotkey script which parses a page from Visual Studio's website and extracts the latest version. It then compares that to the version of the local copy of Visual Studio Code. If you choose to update, it downloads the new version and updates your local copy. The bat file then launches the local copy.
 
-## To-Dos
+## Issues/Requests/Source
+
+Please report issues or submit feature requests in the [*Issues*](https://github.com/UrsineRaven/VSCodePortable/issues) section of [this project on GitHub](https://github.com/UrsineRaven/VSCodePortable).
+
+The source is obviously on GitHub, but you can also find the bulk of the code in the ahk file in the App/Bin directory.  
+
+Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.com/) and [7-zip](https://www.7-zip.org/)) are both open source. You can find their source online somewhere.
+
+## To-Do's
 
 * [ ] Check licensing for 7-zip and AutoHotkey and add any license files necessary
 * [ ] Package bat as an exe
@@ -35,3 +43,12 @@ The bat file launches an AutoHotkey script which parses a page from Visual Studi
 * [ ] Update script to use latest AutoHotkey standards (probably need to look at documentation of all used commands, because the script I pulled code from is ~7 years old)
 * [ ] Use Progress bar instead of ToolTip's to indicate progress
 * [ ] Instead of: backing up data folder, deleting VSCode, re-installing VSCode, and restoring data folder; I should just delete everything in VSCode except the data folder, and then exract over it...
+* [ ] Maybe package it with PortableApps.com installation tool
+* [ ] Write script that automates generating a release
+* [ ] Write a script that detects if the website version detection or download link breaks
+* [ ] Prioritize my To-Do's
+* [ ] Look into submitting a pull to Visual Studio Code to allow the data folder to be outside the program directory, but still be in portable mode. (maybe still have the data directory, but put a text file with the relative path to the data directory?)
+    - This would make updating a lot simpler
+    - Data could just stay in the Data folder
+* [ ] Introduce a way to update VSCodePortable itself
+* [ ] Maybe move the To-Do's out of the readme
