@@ -4,6 +4,10 @@ A launcher for (Windows, 64-bit) Visual Studio Code in portable mode that checks
 
 Obviously, Visual Studio Code belongs to Microsoft. Hopefully, since I'm not distributing any of their files, this is legal and they don't ruin me. :sweat_smile:
 
+## Installation
+
+Snag the zip from the [latest release](https://github.com/UrsineRaven/VSCodePortable/releases/latest) and extract it where you want it.
+
 ## Usage
 
 Just double click the VSCode.bat file.  
