@@ -1,6 +1,6 @@
 # VSCodePortable
 
-A launcher for Visual Studio Code in portable mode that checks for (and optionally installs) updates at startup. It installs Visual Studio Code in portable mode on the first run.  
+A launcher for (Windows, 64-bit) Visual Studio Code in portable mode that checks for (and optionally installs) updates at startup. It installs Visual Studio Code in portable mode on the first run.  
 
 Obviously, Visual Studio Code belongs to Microsoft. Hopefully, since I'm not distributing any of their files, this is legal and they don't ruin me. :sweat_smile:
 
