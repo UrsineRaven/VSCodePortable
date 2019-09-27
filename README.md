@@ -8,7 +8,7 @@ Obviously, Visual Studio Code belongs to Microsoft. Hopefully, since I'm not dis
 
 Snag the zip from the [latest release](https://github.com/UrsineRaven/VSCodePortable/releases/latest) and extract it where you want it.
 
-### Migrating an install to VSCodePortable
+### Migrating an existing install to VSCodePortable
 
 1. Read all the steps here before following any links
 1. Run this once to install it (see [Usage](#usage))
@@ -46,14 +46,14 @@ Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.c
 * [ ] Package bat as an exe
     - [ ] check licensing for VSCode's logo, and see if I can use it for exe
 * [X] ~~*Add versioning somewhere*~~ [2019-09-27]
-* [ ] Clean up code (currently just chunks of an old script I had, that I copied and pasted into a working order)
+* [X] ~~*Clean up code (currently just chunks of an old script I had, that I copied and pasted into a working order)*~~ [2019-09-27]
 * [ ] Add Options
     - [ ] choose whether to store VSCode temp files in data directory instead of %AppData%
     - [X] ~~*choose whether to delete temp files on update (to save time on backup and restore of settings)*~~ [2019-09-27] **Now Irrelevant**
     - [X] ~~*choose whether to delete the settings backup after an update (to save disk space)*~~ [2019-09-27] **Now Irrelevant**
 * [ ] Check into Visual Studio Code licensing and provide any necessary license files
 * [ ] Add GUI back (my old script that I pulled most of this from had a GUI for settings and whatnot)
-* [ ] Update script to use latest AutoHotkey standards (probably need to look at documentation of all used commands, because the script I pulled code from is ~7 years old)
+* [X] ~~*Update script to use latest AutoHotkey standards (probably need to look at documentation of all used commands, because the script I pulled code from is ~7 years old)*~~ [2019-09-27]
 * [ ] Use Progress bar instead of ToolTip's to indicate progress
 * [X] ~~*Instead of: backing up data folder, deleting VSCode, re-installing VSCode, and restoring data folder; I should just delete everything in VSCode except the data folder, and then exract over it...*~~ [2019-09-27]
 * [ ] Maybe package it with PortableApps.com installation tool
@@ -66,4 +66,4 @@ Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.c
 * [ ] Introduce a way to update VSCodePortable itself
 * [ ] Maybe move the To-Do's out of the readme
 * [ ] Do ~~more~~ error checking
-* [ ] Maybe just convert to a PowerShell script to remove executable dependencies (may make it not work as well on random computers due to PowerShell permissions)
+* [X] ~~Maybe just convert to a PowerShell script to remove executable dependencies (may make it not work as well on random computers due to PowerShell permissions)~~ **Not going to do**
