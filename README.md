@@ -8,6 +8,15 @@ Obviously, Visual Studio Code belongs to Microsoft. Hopefully, since I'm not dis
 
 Snag the zip from the [latest release](https://github.com/UrsineRaven/VSCodePortable/releases/latest) and extract it where you want it.
 
+### Migrating an install to VSCodePortable
+
+1. Read all the steps here before following any links
+1. Run this once to install it (see [Usage](#usage))
+1. Follow [Microsoft's guide on migration to portable version](https://code.visualstudio.com/docs/editor/portable#_migrate-to-portable-mode)
+    - Skip the first few steps about installation and creating data folder.
+    - The data folder you need to copy to is App\VSCode\data
+    - You can overwrite anything in the data folder, since it was just auto-generated after you launched the program in step 2
+
 ## Usage
 
 Just double click the VSCode.bat file.  
@@ -36,17 +45,17 @@ Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.c
 * [ ] Check licensing for 7-zip and AutoHotkey and add any license files necessary
 * [ ] Package bat as an exe
     - [ ] check licensing for VSCode's logo, and see if I can use it for exe
-* [ ] Add versioning somewhere
+* [X] ~~*Add versioning somewhere*~~ [2019-09-27]
 * [ ] Clean up code (currently just chunks of an old script I had, that I copied and pasted into a working order)
 * [ ] Add Options
     - [ ] choose whether to store VSCode temp files in data directory instead of %AppData%
-    - [ ] choose whether to delete temp files on update (to save time on backup and restore of settings)
-    - [ ] choose whether to delete the settings backup after an update (to save disk space)
+    - [X] ~~*choose whether to delete temp files on update (to save time on backup and restore of settings)*~~ [2019-09-27] **Now Irrelevant**
+    - [X] ~~*choose whether to delete the settings backup after an update (to save disk space)*~~ [2019-09-27] **Now Irrelevant**
 * [ ] Check into Visual Studio Code licensing and provide any necessary license files
 * [ ] Add GUI back (my old script that I pulled most of this from had a GUI for settings and whatnot)
 * [ ] Update script to use latest AutoHotkey standards (probably need to look at documentation of all used commands, because the script I pulled code from is ~7 years old)
 * [ ] Use Progress bar instead of ToolTip's to indicate progress
-* [ ] Instead of: backing up data folder, deleting VSCode, re-installing VSCode, and restoring data folder; I should just delete everything in VSCode except the data folder, and then exract over it...
+* [X] ~~*Instead of: backing up data folder, deleting VSCode, re-installing VSCode, and restoring data folder; I should just delete everything in VSCode except the data folder, and then exract over it...*~~ [2019-09-27]
 * [ ] Maybe package it with PortableApps.com installation tool
 * [ ] Write script that automates generating a release
 * [ ] Write a script that detects if the website version detection or download link breaks
