@@ -42,28 +42,28 @@ Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.c
 
 ## To-Do's
 
+* [ ] Check into Visual Studio Code licensing and provide any necessary license files
 * [ ] Check licensing for 7-zip and AutoHotkey and add any license files necessary
-* [ ] Package bat as an exe
-    - [ ] check licensing for VSCode's logo, and see if I can use it for exe
-* [X] ~~*Add versioning somewhere*~~ [2019-09-27]
+* [X] ~~*Instead of: backing up data folder, deleting VSCode, re-installing VSCode, and restoring data folder; I should just delete everything in VSCode except the data folder, and then exract over it...*~~ [2019-09-27]
 * [X] ~~*Clean up code (currently just chunks of an old script I had, that I copied and pasted into a working order)*~~ [2019-09-27]
+* [X] ~~*Add versioning somewhere*~~ [2019-09-27]
+* [X] ~~*Update script to use latest AutoHotkey standards (probably need to look at documentation of all used commands, because the script I pulled code from is ~7 years old)*~~ [2019-09-27]
+* [X] ~~*Prioritize my To-Do's*~~ [2019-09-27]
+* [ ] Use Progress bar instead of ToolTip's to indicate progress
+* [ ] Introduce a way to update VSCodePortable itself
+* [ ] Do ~~more~~ error checking
 * [ ] Add Options
     - [ ] choose whether to store VSCode temp files in data directory instead of %AppData%
     - [X] ~~*choose whether to delete temp files on update (to save time on backup and restore of settings)*~~ [2019-09-27] **Now Irrelevant**
     - [X] ~~*choose whether to delete the settings backup after an update (to save disk space)*~~ [2019-09-27] **Now Irrelevant**
-* [ ] Check into Visual Studio Code licensing and provide any necessary license files
-* [ ] Add GUI back (my old script that I pulled most of this from had a GUI for settings and whatnot)
-* [X] ~~*Update script to use latest AutoHotkey standards (probably need to look at documentation of all used commands, because the script I pulled code from is ~7 years old)*~~ [2019-09-27]
-* [ ] Use Progress bar instead of ToolTip's to indicate progress
-* [X] ~~*Instead of: backing up data folder, deleting VSCode, re-installing VSCode, and restoring data folder; I should just delete everything in VSCode except the data folder, and then exract over it...*~~ [2019-09-27]
-* [ ] Maybe package it with PortableApps.com installation tool
 * [ ] Write script that automates generating a release
+* [ ] Package bat as an exe
+    - [ ] check licensing for VSCode's logo, and see if I can use it for exe
+* [ ] Add GUI back (my old script that I pulled most of this from had a GUI for settings and whatnot)
+* [ ] Maybe move the To-Do's out of the readme
+* [ ] Maybe package it with PortableApps.com installation tool
 * [ ] Write a script that detects if the website version detection or download link breaks
-* [ ] Prioritize my To-Do's
 * [ ] Look into submitting a pull to Visual Studio Code to allow the data folder to be outside the program directory, but still be in portable mode. (maybe still have the data directory, but put a text file with the relative path to the data directory?)
     - This would make updating a lot simpler
     - Data could just stay in the Data folder
-* [ ] Introduce a way to update VSCodePortable itself
-* [ ] Maybe move the To-Do's out of the readme
-* [ ] Do ~~more~~ error checking
 * [X] ~~Maybe just convert to a PowerShell script to remove executable dependencies (may make it not work as well on random computers due to PowerShell permissions)~~ **Not going to do**
