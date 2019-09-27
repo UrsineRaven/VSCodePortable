@@ -49,7 +49,7 @@ Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.c
 * [X] ~~*Add versioning somewhere*~~ [2019-09-27]
 * [X] ~~*Update script to use latest AutoHotkey standards (probably need to look at documentation of all used commands, because the script I pulled code from is ~7 years old)*~~ [2019-09-27]
 * [X] ~~*Prioritize my To-Do's*~~ [2019-09-27]
-* [ ] Use Progress bar instead of ToolTip's to indicate progress
+* [X] ~~*Use Progress bar instead of TrayTips to indicate progress*~~ [2019-09-27]
 * [ ] Introduce a way to update VSCodePortable itself
 * [ ] Do ~~more~~ error checking
 * [ ] Add Options
