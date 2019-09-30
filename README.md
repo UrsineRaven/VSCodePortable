@@ -89,13 +89,13 @@ Per the requirements listed in the FAQ of the readme distributed with the 7-zip 
 2. 7-zip is provided under the GNU LGPL license
 3. You can get the 7-zip source code from <www.7-zip.org>.
 
-The license file provided with the download I used is available in the Data\Licenses directory.
+The license file provided with the download I used is available in the Data\Other_Licenses directory.
 
 ### AutoHotkey
 
 Per the requirements of the AutoHotkey license, I am opting to provide a link to the source code of AutoHotkey rather than including the source code explicitly: [link to AutoHotkey source](https://github.com/Lexikos/AutoHotkey_L). If for any reason this does not fully fulfill the requirements of the license, I will provide a copy of the source in a valid medium if you contact me at the email listed on my [GitHub profile](https://github.com/UrsineRaven).
 
-The license file provided with the download I used is available in the Data\Licenses directory.
+The license file provided with the download I used is available in the Data\Other_Licenses directory.
 
 ### Visual Studio Code
 
