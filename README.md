@@ -87,7 +87,7 @@ Per the requirements listed in the FAQ of the readme distributed with the 7-zip 
 
 1. I am using 7-zip in this application. (It extracts the setup files to install updates.)
 2. 7-zip is provided under the GNU LGPL license
-3. You can get the 7-zip source code from <www.7-zip.org>.
+3. You can get the 7-zip source code from <https://www.7-zip.org>.
 
 The license file provided with the download I used is available in the Data\Other_Licenses directory.
 
