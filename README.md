@@ -64,7 +64,9 @@ Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.c
 * [ ] Write script that automates generating a release
 * [ ] Package bat as an exe
     - [X] ~~*check licensing for VSCode's logo, and see if I can use it for exe*~~ [2019-09-30] **I'm pretty confident that I can't since it's trademarked. I'll just draw a terrible rendition in paint and use that.**
-    - [ ] create a rough, but not trade-mark-violating version of the logo to use...
+    - [X] ~~*create a rough, but not trademark-violating version of the logo to use...*~~ [2019-09-30]
+    - [ ] Make the icon less hideous, but still not at risk of being confused with being associated with Microsoft
+* [ ] Add "build" instructions to readme
 * [ ] Add GUI back (my old script that I pulled most of this from had a GUI for settings and whatnot)
 * [ ] Maybe move the To-Do's out of the readme
 * [ ] Maybe package it with PortableApps.com installation tool
@@ -112,4 +114,4 @@ Since I am not distributing any files, and I'm only using their public services 
 
 #### Important Clarifications
 
-Visual Studio Code is a trademark of Microsoft Corporation. While this repo and application are named "VSCodePortable", the name "VSCode" technically applies only to the open source portion of Visual Studio Code which is hosted on their [GitHub page](https://github.com/Microsoft/vscode). So, despite the fact that this application downloads and updates Visual Studio Code, it is named VSCode (as is the local folder it is installed to) to avoid trademark violations. This is also the reason why I can't use the Visual Studio Code logo anywhere.
+Visual Studio Code is a trademark of Microsoft Corporation. While this repo and application are named "VSCodePortable", the name "VSCode" technically applies only to the open source portion of Visual Studio Code which is hosted on their [GitHub page](https://github.com/Microsoft/vscode). So, despite the fact that this application downloads and updates Visual Studio Code, it is named VSCode (as is the local folder it is installed to) to avoid trademark violations. This is also the reason why I can't use the Visual Studio Code logo anywhere (and why the one I made is intentionally bad, to prevent anyone from thinking that Microsoft was associated with this project).
