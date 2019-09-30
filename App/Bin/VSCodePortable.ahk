@@ -2,7 +2,7 @@ SetBatchLines -1
 #NoEnv
 
 global Program := "VSCodePortable"
-global Version := "1.0.0-beta.2"
+global Version := "1.0.0-beta.3"
 global AppRoot := A_ScriptDir . "\..\.."
 FileCreateDir, %AppRoot%\Data\Settings
 FileCreateDir, %AppRoot%\Data\Temp

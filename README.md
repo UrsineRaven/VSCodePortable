@@ -17,6 +17,10 @@ Snag the zip from the [latest release](https://github.com/UrsineRaven/VSCodePort
     - The data folder you need to copy to is App\VSCode\data
     - You can overwrite anything in the data folder, since it was just auto-generated after you launched the program in step 2
 
+### Updating VSCodePortable
+
+It's in the plans to give this script/"application" the functionality to update itself, but for now, you need to check github for a new release, go get the zip from the [latest release](https://github.com/UrsineRaven/VSCodePortable/releases/latest), and extract it over your existing install.
+
 ## Usage
 
 Just double click the VSCode.bat file.  
@@ -63,6 +67,11 @@ Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.c
 * [ ] Maybe move the To-Do's out of the readme
 * [ ] Maybe package it with PortableApps.com installation tool
 * [ ] Write a script that detects if the website version detection or download link breaks
+* [ ] Maybe write a script that maintains latest versions at a dedicated uri
+    - This script would no longer be responsible for the website scraping
+    - Could also use another uri for the version of this script itself
+    - Wouldn't necessarily have to make people update this "app" if the structure of the website changes
+    - Downside is that update detection would be dependent on the uptime of my server and that the server would likely only scrape once or twice a day, adding somewhat of a lag to updates
 * [ ] Look into submitting a pull to Visual Studio Code to allow the data folder to be outside the program directory, but still be in portable mode. (maybe still have the data directory, but put a text file with the relative path to the data directory?)
     - This would make updating a lot simpler
     - Data could just stay in the Data folder
