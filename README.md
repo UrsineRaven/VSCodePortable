@@ -72,7 +72,7 @@ Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.c
 * [ ] Maybe package it with PortableApps.com installation tool
 * [ ] Write a script that detects if the website version detection or download link breaks
 * [ ] Maybe write a script that maintains latest versions at a dedicated uri
-    - This script would no longer be responsible for the website scraping
+    - This script would no longer be responsible for the website scraping (except as a fallback)
     - Could also use another uri for the version of this script itself
     - Wouldn't necessarily have to make people update this "app" if the structure of the website changes
     - Downside is that update detection would be dependent on the uptime of my server and that the server would likely only scrape once or twice a day, adding somewhat of a lag to updates
