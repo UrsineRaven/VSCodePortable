@@ -70,6 +70,9 @@ Also, the programs used by VSCodePortable ([AutoHotkey](https://www.autohotkey.c
 * [ ] Add GUI back (my old script that I pulled most of this from had a GUI for settings and whatnot)
 * [ ] Maybe move the To-Do's out of the readme
 * [ ] Maybe package it with PortableApps.com installation tool
+* [ ] Add instructions/support for using *Git for Windows Portable*
+    - This would include info for letting VSCode know where git is (and ssh for using the remote development SSH extension)
+    - Support may look like allowing a config which would modify the path variable prior to launch or checking a parent folder for *Git for Windows Portable*
 * [ ] Write a script that detects if the website version detection or download link breaks
 * [ ] Maybe write a script that maintains latest versions at a dedicated uri
     - This script would no longer be responsible for the website scraping (except as a fallback)
